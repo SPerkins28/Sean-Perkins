@@ -1,0 +1,41 @@
+#formContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactRow {
+    margin-top: 1em;
+}
+
+#emailLabel {
+    font-family: monsterrat;
+}
+
+#emailInput {
+    font-family: monsterrat;
+    border-radius: 5px;
+    border: .25px solid;
+    margin-bottom: .5em;
+}
+
+#messageLabel {
+    font-family: monsterrat;
+}
+
+#messageInput {
+    font-family: monsterrat;
+    border-radius: 5px;
+    border: .25px solid;
+    margin-bottom: .5em;
+}
+
+#subBtnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#contactSubmitBtn {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    width: 33%;
+}

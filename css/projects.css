@@ -1,0 +1,66 @@
+#projectsCard{
+    background-color: #D6DBE0;
+}
+
+#projectsDiv1 {
+    display: flex;
+    justify-content: center;
+}
+
+#projectsDiv2 {
+    display: flex;
+    justify-content: center;
+}
+
+#creature, #api1, #api2, #blueBadge, #redBadge {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 1em;
+}
+
+#static {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 1em;
+}
+
+#creature:hover,
+#creature:focus {
+  box-shadow: 0 2em 2em -0.75em black;
+  transform: translateY(-.75em);
+}
+
+#static:hover,
+#static:focus {
+  box-shadow: 0 2em 2em -0.75em black;
+  transform: translateY(-.75em);
+}
+
+#api1:hover,
+#api1:focus {
+  box-shadow: 0 2em 2em -0.75em black;
+  transform: translateY(-.75em);
+}
+
+#api2:hover,
+#api2:focus {
+  box-shadow: 0 2em 2em -0.75em black;
+  transform: translateY(-.75em);
+}
+
+#blueBadge:hover,
+#blueBadge:focus {
+  box-shadow: 0 2em 2em -0.75em black;
+  transform: translateY(-.75em);
+}
+
+#redBadge:hover,
+#redBadge:focus {
+  box-shadow: 0 2em 2em -0.75em black;
+  transform: translateY(-.75em);
+}
+
+

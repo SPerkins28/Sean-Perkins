@@ -1,0 +1,60 @@
+#headingOne, #headingTwo, #headingThree {
+    display: flex;
+    justify-content: center;
+    background-color: #010B18;    
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+}
+
+#headingOne, #headingTwo {
+    margin-bottom: .1em;
+}
+
+#aboutMeBtn {
+    color: #189ADC;
+    font-family: mosterrat;
+    font-size: .75em;
+    letter-spacing: .1em;
+    /* text-shadow: #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px,#000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px; */
+    text-shadow: #01151E 0px 0px 3px,  #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px;
+}
+
+#aboutCard {
+    display: flex;
+    background-color: #D6DBE0;
+}
+
+#familyImgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#family {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+#projectsBtn {
+    color: #189ADC;
+    font-family: mosterrat;
+    font-size: .75em;
+    letter-spacing: .1em;
+    /* text-shadow: #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px,#000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px; */
+    text-shadow: #01151E 0px 0px 3px,  #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px;
+}
+
+#skillsBtn {
+    color: #189ADC;
+    font-family: mosterrat;
+    font-size: .75em;
+    letter-spacing: .1em;
+    /* text-shadow: #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px,#000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 3px; */
+    text-shadow: #01151E 0px 0px 3px,  #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px;
+}
+
+#skillsCard {
+    background-color: #D6DBE0;
+}

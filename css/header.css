@@ -1,0 +1,29 @@
+.jumbotron {
+    background: url(../assets/nLightsRoad.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 75vh;           /*? vh = view height so 75 out of 100 */
+    padding-top: 0;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 0;
+}
+
+#jumboContain {
+    margin-right: 1.5em;
+    text-align: right;
+}
+
+.display-4 {
+    font-family: monsterrat;
+    font-size: 4em;
+    color: #189ADC;
+    text-shadow: #01151E 0px 0px 3px,  #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px;
+}
+
+.lead {
+    font-family: monsterrat;
+    font-size: 2em;
+    color:#189ADC;
+    text-shadow: #01151E 0px 0px 3px,  #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px, #01151E 0px 0px 3px;
+}

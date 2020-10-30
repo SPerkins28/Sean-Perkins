@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean Perkins</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- NAV BAR --> 
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #010B18" id="navBar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#" id="my-linkH" style="color: #3AE484;">Home</a>
+          <a class="nav-link" href="#headingOne" id="my-link1" style="color: #3AE484;">About Me</a>
+          <a class="nav-link" href="#headingTwo" id="my-link2"  style="color: #3AE484">Projects</a>
+          <a class="nav-link" href="#headingThree" id="my-link3" style="color: #3AE484;">Skills</a>
+          <a class="nav-link" href="#contactForm" id="my-linkC" style="color: #3AE484;">Contact</a>
+        </div>
+      </div>
+  </nav>
+    
+    <!-- HEADER -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container" id="jumboContain">
+          <p class="display-4">Sean Perkins</p>
+          <p class="lead">Web Developer</p>
+        </div>
+      </div>
+
+    <!-- ABOUT -->
+  <div id="aboutMeContain">
+    <div class="accordion" id="accordionDiv">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="aboutMeBtn">
+              About Me
+            </button>
+          </h2>
+        </div>
+    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionDiv">
+          <div class="card-body" id="aboutCard">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-6">
+              I am currently studying to become a web developer at <a href="https://www.elevenfifty.org" target="blank">Eleven Fifty Academy</a>. After close to 7 years in the construction estimation field, I decided it was time to do something I actually enjoy. I had already watched my wife graduate from Eleven Fifty at the end of 2018 and saw how much she enjoyed the experience and work afterwords. I started digging into to coding and enrolled at Eleven Fifty quickly after.
+            
+            <br><br>
+
+              This course has been tough, and has challenged me in ways I have never been challenged before. However, I truly feel I have made the right choice in choosing to enroll in the course. I am <b>ADDICTED</b> to coding!
+              I love the fact that there is an infinite amount of knowledge for me to consume. I love that the only limits to knowledge are self imposed. I love creating something on my own then learning the morst efficent way. I'm excited to continue to learn more every day! 
+            </div>
+            <div class="col-sm-4" id="familyImgContainer">
+              <img src="assets/family-sm.png" id="family">
+            </div>
+            <div class="col-sm-1"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="projectsBtn">
+              Projects
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionDiv">
+          <div class="card-body" id="projectsCard">
+            <!-- Project Cards Here -->
+            <div class="container">
+              <div class="row" id="projectsRow1">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8" id="projectsDiv1">
+                  <a href="https://codepen.io/sperkins28/pen/YzWzLjm" target="blank">
+                    <img src="assets/cssCreature.png" id="creature">
+                  </a>
+                  <a href="https://sperkins28.github.io/staticLayout/" target="blank">
+                    <img src="assets/staticLayout.png" id="static">
+                  </a>
+                  <a href="https://sperkins28.github.io/API_1/" target="blank">
+                    <img src="assets/poke-api.gif" id="api1">
+                  </a>
+                </div>
+                <div class="col-sm-2"></div>
+              </div>
+              <div class="row" id="projectsRow2">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8" id="projectsDiv2">
+                  <a href="https://giphy-api-1150.web.app/" target="blank">
+                    <img src="assets/giphy-api.gif" id="api2">
+                  </a>
+                  <a href="#headingTwo">
+                    <img src="assets/blue-badge.png" id="blueBadge">
+                  </a>
+                  <a href="#headingTwo">
+                    <img src="assets/red-badge.png" id="redBadge">
+                  </a>
+                </div>
+                <div class="col-sm-2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="skillsBtn">
+              Skills
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionDiv">
+          <div class="card-body" id="skillsCard">
+            <!-- Skills -->
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- CONTACT FORM -->
+    <div class="container">
+      <div class="row" id="contactRow">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6" id="contactForm">
+          <form action="https://formspree.io/f/xeqpgooo" target="blank" method="POST" id="formContainer">
+            <label id="emailLabel">
+            Your email:
+            </label>
+            <input type="text" name="_replyto" id="emailInput">
+            <label id="messageLabel">
+            Your message:
+            </label>
+            <textarea name="message" id="messageInput"></textarea>
+              <!-- your other form fields go here -->
+            <div id="subBtnContainer">  
+              <button type="submit" class="btn btn-sm" style="background-color: #189ADC" id="contactSubmitBtn">Send</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-3"></div> 
+      </div>
+    </div>
+
+<!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<script src="porfolio.js"></script> 
+</body>
+</html>
