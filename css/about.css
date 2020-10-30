@@ -1,6 +1,7 @@
 #headingOne, #headingTwo, #headingThree {
     display: flex;
     justify-content: center;
+    font-family: monsterrat;
     background-color: #010B18;    
 }
 

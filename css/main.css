@@ -27,7 +27,8 @@
     #projectsDiv1, #projectsDiv2 {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-content: center;
+        margin-left: 2.35em;
     }
 
     #creature, #static, #api1, #api2, #blueBadge, #redBadge {
@@ -35,6 +36,12 @@
         height: 200px;
         margin-top: 1em;
     }
+
+    /* #projectsCard{
+        background-color: #D6DBE0;
+        display: flex;
+        justify-content: center;
+    } */
 }
 
 @font-face{
