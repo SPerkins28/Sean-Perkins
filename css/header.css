@@ -2,7 +2,7 @@
     background: url(../assets/nLightsRoad.jpg);
     background-size: cover;
     background-position: center;
-    height: 75vh;           /*? vh = view height so 75 out of 100 */
+    height: 95vh;           /*? vh = view height so 95 out of 100 */
     padding-top: 0;
     display: flex;
     align-items: flex-end;
