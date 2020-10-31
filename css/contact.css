@@ -1,32 +1,37 @@
 #formContainer {
     display: flex;
     flex-direction: column;
+    margin: 1em;
 }
 
 #contactRow {
     margin-top: 1em;
 }
 
-#emailLabel {
+#contactLabel {
     font-family: monsterrat;
+    text-align: center;
+}
+
+#nameInput {
+    font-family: monsterrat;
+    border-radius: 5px;
+    border: .25px solid;
+    margin-bottom: .7em;
 }
 
 #emailInput {
     font-family: monsterrat;
     border-radius: 5px;
     border: .25px solid;
-    margin-bottom: .5em;
-}
-
-#messageLabel {
-    font-family: monsterrat;
+    margin-bottom: .75em;
 }
 
 #messageInput {
     font-family: monsterrat;
     border-radius: 5px;
     border: .25px solid;
-    margin-bottom: .5em;
+    margin-bottom: .75em;
 }
 
 #subBtnContainer {
@@ -39,3 +44,87 @@
     margin-bottom: 1em;
     width: 33%;
 }
+
+#otherContact {
+    margin: 1em 0 1em 0;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  ul li {
+    list-style: none;
+    margin: 0 1em;
+  }
+  
+  ul li a {
+    position: relative; 
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: rgb(92, 92, 92);
+    border-radius: 50%;
+    font-size: 30px;
+    color: rgb(252, 252, 252);
+    transition: .5s;
+  }
+  
+  #linkedinLink::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background:  #0073B1;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+  #linkedinLink:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #0073B1;
+  }
+  
+  #linkedinLink:hover {
+    color: #0077B5;
+    box-shadow: 0 0 5px  #0073B1;
+    text-shadow: 0 0 5px  #0073B1;
+  }
+
+  #githubLink::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #252A2E;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+  #githubLink:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px  #252A2E;
+  }
+  
+  #githubLink:hover {
+    color:  #252A2E;
+    box-shadow: 0 0 5px  #252A2E;
+    text-shadow: 0 0 5px  #252A2E;
+  }

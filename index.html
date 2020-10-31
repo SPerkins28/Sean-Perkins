@@ -7,6 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
   <!-- NAV BAR --> 
@@ -39,7 +40,7 @@
       <div class="card">
         <div class="card-header" id="headingOne">
           <h2 class="mb-0">
-            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="aboutMeBtn">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="aboutMeBtn" style="font-family: monsterrat;">
               About Me
             </button>
           </h2>
@@ -67,7 +68,7 @@
       <div class="card">
         <div class="card-header" id="headingTwo">
           <h2 class="mb-0">
-            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="projectsBtn">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="projectsBtn" style="font-family: monsterrat;">
               Projects
             </button>
           </h2>
@@ -82,7 +83,10 @@
                   <div id="creatureContain">
                     <img src="assets/cssCreature.png" id="creature">
                     <div id="creatureOver">
-                      <div id="creatureText">Captain American Pop figure created entirely out of CSS and HTML.
+                      <div id="creatureText">
+                        <div class="projectName"><u>CSS Creature</u></div>
+                        <br>
+                        Captain American Pop figure created entirely out of CSS and HTML.
                         <div>
                           <a href="https://codepen.io/sperkins28/pen/YzWzLjm" style="color: #189ADC" target="blank">Check it Out!</a>
                         </div>
@@ -92,7 +96,10 @@
                   <div id="staticContain">
                     <img src="assets/staticLayout.png" id="static">
                     <div id="staticOver">
-                      <div id="staticText">Replicated the Hulu homepage using only CSS and HTML. 
+                      <div id="staticText">
+                        <div class="projectName"><u>Static Webpage</u></div>
+                        <br>
+                        Replicated the Hulu homepage using only CSS and HTML. 
                         <div>
                           <a href="https://sperkins28.github.io/staticLayout/" style="color: #189ADC" target="blank">Take a look here!</a>
                         </div>
@@ -102,7 +109,10 @@
                   <div id="api1Contain">
                     <img src="assets/poke-api.gif" id="api1">
                     <div id="api1Over">
-                      <div id="api1Text">Accesed the Pokémon API and implemented DOM Manipulation to display it in a fun way.
+                      <div id="api1Text">
+                        <div class="projectName"><u>Pokémon API</u></div>
+                        <br>
+                        Used the Pokémon API to Display Pokémon info in a fun way.
                         <div>
                             <a href="https://sperkins28.github.io/API_1/" style="color: #189ADC" target="blank">Choose your Pokémon!</a>
                         </div>
@@ -118,7 +128,10 @@
                   <div id="api2Contain">
                     <img src="assets/giphy-api.gif" id="api2">
                     <div id="api2Over">
-                      <div id="api2Text">More API work using the GIPHY API to display random gifs based on search.
+                      <div id="api2Text">
+                        <div class="projectName"><u>GIPHY API</u></div>
+                        <br>
+                        More API work using the GIPHY API to display random gifs based on search.
                         <div>
                           <a href="https://giphy-api-1150.web.app/" style="color: #189ADC"target="blank">Take a look!</a>
                         </div>
@@ -128,14 +141,20 @@
                   <div id="blueContain">
                     <img src="assets/blue-badge.png" id="blueBadge">
                     <div id="blueOver">
-                      <div id="blueText">Check back later!<a href="#headingTwo"></a>
+                      <div id="blueText">
+                        <div class="projectName"><u>Blue Badge Project</u></div>
+                        <br>
+                        Check back later!<a href="#headingTwo"></a>
                       </div>
                     </div>
                   </div>
                   <div id="redContain">
                     <img src="assets/red-badge.png" id="redBadge">
                     <div id="redOver">
-                      <div id="redText">Check back later!<a href="#headingTwo"></a>
+                      <div id="redText">
+                        <div class="projectName"><u>Red Badge Project</u></div>
+                        <br>
+                        Check back later!<a href="#headingTwo"></a>
                     </div>
                   </div>
                 <div class="col-sm-2"></div>
@@ -149,34 +168,42 @@
       <div class="card">
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
-            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="skillsBtn">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="skillsBtn" style="font-family: monsterrat;">
               Skills
             </button>
           </h2>
         </div>
         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionDiv">
           <div class="card-body" id="skillsCard">
-            <!-- Skills -->
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6" id="skillsIcons">
+              <img src="assets/bootstrap-plain-wordmark.svg" id="bootSVG">
+              <img src="assets/css3-original-wordmark.svg" id="cssSVG">
+              <img src="assets/github-original-wordmark.svg" id="gitSVG">
+              <img src="assets/html5-original-wordmark.svg" id="htmlSVG">
+              <img src="assets/jquery-original-wordmark.svg" id="jqSVG">
+              <img src="assets/javascript-original.svg" id="jsSVG">
+              <img src="assets/react-original-wordmark.svg" id="reactSVG">
+            </div>
+            <div class="col-sm-3"></div>
           </div>
         </div>
       </div>
     </div>
   </div>
 
+  <hr />
     <!-- CONTACT FORM -->
     <div class="container">
       <div class="row" id="contactRow">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-6" id="contactForm">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4" id="contactForm">
           <form action="https://formspree.io/f/xeqpgooo" target="blank" method="POST" id="formContainer">
-            <label id="emailLabel">
-            Your email:
-            </label>
-            <input type="text" name="_replyto" id="emailInput">
-            <label id="messageLabel">
-            Your message:
-            </label>
+            <label id="contactLabel">
+             Send me a message!
+             </label>
+            <input type="text" name="_replyto" placeholder="Name" id="nameInput">
+            <input type="text" name="_replyto" placeholder="E-mail" id="emailInput">
             <textarea name="message" id="messageInput"></textarea>
               <!-- your other form fields go here -->
             <div id="subBtnContainer">  
@@ -184,10 +211,26 @@
             </div>
           </form>
         </div>
-        <div class="col-sm-3"></div> 
+        <div class="col-sm-4" id="otherContact">
+          <div id="findMe">Find me on:</div>
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/sean-perkins28/" target="blank" id="linkedinLink">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/SPerkins28" target="blank" id="githubLink">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        <div class="col-sm-2"></div> 
       </div>
     </div>
-
+    <br>
+<footer>©Sean Perkins • 2020</footer>
 <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

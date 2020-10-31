@@ -25,6 +25,10 @@
     margin: .75em;
 }
 
+.projectName {
+    font-size: 22px;
+}
+
 #creatureContain, #staticContain, #api1Contain {
     position: relative;
     width: 50%;

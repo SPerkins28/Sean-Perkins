@@ -58,4 +58,19 @@
 
 #skillsCard {
     background-color: #D6DBE0;
+    display: flex;
+    justify-content: center;
 }
+
+#skillsIcons {
+    display: flex;
+    justify-content: center;
+}
+
+#bootSVG, #cssSVG, #gitSVG, #htmlSVG, #jsSVG, #jqSVG, #reactSVG {
+    width: 250px;
+    height: 250px;
+    margin: .5em;
+}
+
+

@@ -37,11 +37,40 @@
         margin-top: 1em;
     }
 
-    /* #projectsCard{
-        background-color: #D6DBE0;
+    #creatureTex, #staticText, #api1Text, #api2Text, #blueText, #redText {
+        font-size: 16px;
+    }
+
+    .projectName {
+        font-size: 14px;
+    }
+
+    #skillsIcons {
         display: flex;
-        justify-content: center;
-    } */
+        flex-direction: column;
+        align-content: center;
+    }
+
+    #bootSVG, #cssSVG, #gitSVG, #htmlSVG, #jsSVG, #jqSVG, #reactSVG {
+        width: 150px;
+        height: 150px;
+        margin: .5em;
+    }
+
+    #contactRow {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    #findMe {
+        display: none;
+    }
+
+    #otherContact {
+        margin: 1em 0 1.5em 0;
+        text-align: center;
+    }
 }
 
 @font-face{
