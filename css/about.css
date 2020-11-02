@@ -1,4 +1,4 @@
-#headingOne, #headingTwo, #headingThree {
+#headingOne, #headingTwo, #headingThree, #headingFour {
     display: flex;
     justify-content: center;
     font-family: monsterrat;
@@ -10,7 +10,7 @@
     border-radius: 0;
 }
 
-#headingOne, #headingTwo {
+#headingOne, #headingTwo, #headingThree {
     margin-bottom: .1em;
 }
 
@@ -73,6 +73,12 @@
     width: 250px;
     height: 250px;
     margin: .5em;
+}
+
+#resumeCard {
+    background-color: #D6DBE0;
+    display: flex;
+    justify-content: center;
 }
 
 

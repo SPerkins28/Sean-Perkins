@@ -21,7 +21,7 @@
           <a class="nav-link" href="#headingOne" id="my-link1" style="color: #3AE484;">About Me</a>
           <a class="nav-link" href="#headingTwo" id="my-link2"  style="color: #3AE484">Projects</a>
           <a class="nav-link" href="#headingThree" id="my-link3" style="color: #3AE484;">Skills</a>
-          <a class="nav-link" href="https://docs.google.com/document/d/1NOnZI22iMPFAKrFksZgCLit9L-kZrck3fMdUgIxPMOg/edit?usp=sharing" target="blank" id="my-linkR" style="color: #3AE484;">Resumé</a>
+          <a class="nav-link" href="#headingFour" id="my-link4" style="color: #3AE484;">Resumé</a>
           <a class="nav-link" href="#contactForm" id="my-linkC" style="color: #3AE484;">Contact</a>
         </div>
       </div>
@@ -191,6 +191,27 @@
         </div>
       </div>
     </div>
+
+    <div class="card">
+      <div class="card-header" id="headingFour">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" id="skillsBtn" style="font-family: monsterrat;">
+            Resumé
+          </button>
+        </h2>
+      </div>
+      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionDiv">
+        <div class="card-body" id="resumeCard">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10" id="resume">
+            <iframe src="assets/sperkinsResume.pdf" width="100%" height="800px">
+            </iframe>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
 
   <hr />
@@ -206,7 +227,6 @@
             <input type="text" name="_replyto" placeholder="Name" id="nameInput">
             <input type="text" name="_replyto" placeholder="E-mail" id="emailInput">
             <textarea name="message" id="messageInput"></textarea>
-              <!-- your other form fields go here -->
             <div id="subBtnContainer">  
               <button type="submit" class="btn btn-sm" style="background-color: #189ADC" id="contactSubmitBtn">Send</button>
             </div>

@@ -71,6 +71,11 @@
         margin: 1em 0 1.5em 0;
         text-align: center;
     }
+
+    #resumeCard {
+        width: auto;
+        height: auto;
+    }
 }
 
 @font-face{
