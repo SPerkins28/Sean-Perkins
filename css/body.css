@@ -3,6 +3,7 @@ body {
     /* font-weight: 1000; */
     line-height: 1.9em;
     background-color: #D6DBE0;
+    -webkit-font-smoothing: antialiased;
 
 }
 
